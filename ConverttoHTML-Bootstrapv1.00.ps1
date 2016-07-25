@@ -13,9 +13,9 @@ $footer = @'
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>'
 '@
-#$body = '<div class="container">'
 
 ##Data
+#Format of CSV is  ComputerName,DiskName,DiskSizeGB,DiskFreeGB,DiskID,DiskFreePercent,Category
 
 $diskData = Import-Csv C:\users\dan.fletcher\Desktop\DiskReport_23062016.csv
 # Format Critical Category data
